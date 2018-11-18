@@ -1,7 +1,135 @@
+#stocks-btn-list {
+color: white; 
+
+
+}
+.btn-block {
+  background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+  }
+
+
+body { 
+   background: darkblue url("https://moneycrashers-sparkchargemedia.netdna-ssl.com/wp-content/uploads/2016/04/stock-exchange-market-1024x576.jpg") no-repeat fixed center; 
+}
+  /* background-position: 100%; 
+  opacity: 0.8;
+  z-index: -10;
+   position: absolute;
+   top: 50%;
+  left: 50%; 
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+   border:2px solid #F00;
+  object-fit: cover; 
+  background-size: 960px 960px; 
+   background-repeat: no-repeat;
+} */
+
+.jumbotron{
+   z-index: 2;
+ color: whitesmoke; 
+
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+23,2989d8+33,7db9e8+47&0.65+5,1+100 */
+background: -moz-linear-gradient(top, rgba(30,87,153,0.65) 0%, rgba(30,95,164,0.65) 5%, rgba(32,124,202,0.72) 23%, rgba(41,137,216,0.76) 33%, rgba(125,185,232,0.81) 47%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,0.65) 0%,rgba(30,95,164,0.65) 5%,rgba(32,124,202,0.72) 23%,rgba(41,137,216,0.76) 33%,rgba(125,185,232,0.81) 47%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,0.65) 0%,rgba(30,95,164,0.65) 5%,rgba(32,124,202,0.72) 23%,rgba(41,137,216,0.76) 33%,rgba(125,185,232,0.81) 47%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.btn-block, .btn-secondary, .stock-btn {
+  background-color: red; 
+}
+
+.card-header{
+color: black; 
+  z-index: 2;
+  
+}
+
+#footer{
+  margin-top: 30px; 
+  background-color:black;
+  z-index: 2;
+  opacity: 0.8;
+}
+.card-body{
+  color: black; 
+  z-index: 2;
+
+}
+#symbol-input{
+  position: relative;
+  left: 25%;
+  z-index: 2;
+  color: black; 
+
+
+}
+
+.company-name, #stocks-info, #list-group-item, .card-header, .card-text
+.card-text, .card-footer, .card-body, .card-header, #stocks-info, 
+.list-group-item, #company-name, .col-sm-9
+{
+  color: black; 
+  }
+
+.text-center small{
+  font-size : 20px;
+  color: black; 
+  z-index: 2;
+}
+
+.stock-btn btn-block{
+  color: black; 
+  z-index: 2;
+ 
+}
+
+#overlay {
+  /* position: relative;   */
+  width: 100%; 
+  height: 100%; 
+  top: 0px; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 0;  
+  color: black; 
+}
+
+/* mybgvid
+#mybgvid {
+  opacity: 0.8;
+  z-index: -10;
+   position: absolute;
+  top: 50%;
+  left: 50%; 
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+   border:2px solid #F00;
+  object-fit:cover; /* for those who do support it */
+  /* background-size: 960px 960px;
+   background-repeat: no-repeat;
+  -ms-transform: translateX(-150%) translateY(-150%);
+  -moz-transform: translateX(-150%) translateY(-150%);
+  -webkit-transform: translateX(-150%) translateY(-150%);
+  transform: translateX(-150%) translateY(-150%); 
+
+} */ 
+/* 
+background-position: 100%; */
+
 /* body {
   font: 18px arial, sans-serif;
   background: #eee;
-} */
+} 
 
 
 header {
@@ -23,14 +151,9 @@ header {
 nav {background-color: black;
   width: 100%;  
 opacity: 0.6;
-
+align-content: center; 
 
 }
-
-
-
-/* 
-
 
 
 #stocks {
@@ -86,7 +209,7 @@ input[type="submit"]:hover {
 
 button.active {
   background: #334e4d;
-} */
+} 
 
 footer 
 {

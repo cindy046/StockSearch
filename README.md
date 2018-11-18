@@ -24,3 +24,5 @@ Web app uses the iexTrading API,  JavaScript, jQuery, HTML, & CSS.
    and adds it into `stocksList` array if the input exists in our `validationList`. 
    *Make sure the user input is always capitalized. 
    Then make a function call that takes each topic in the array remakes the buttons on the page.
+
+   https://cindy046.github.io/StockSearch
